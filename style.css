@@ -39,7 +39,8 @@
 }
 
 a {
-  color: blue;
+  color: black;
+  text-decoration: none;
 }
 
 a:hover {
@@ -66,10 +67,13 @@ h1 {
     padding: 30px;
 }
 
-#submit {
+#submit, button {
     background-color: black;
     color: white;
-    padding: 5px;
+    font-weight: 800;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
 }
 
 .icon {
@@ -78,7 +82,7 @@ h1 {
     flex-shrink: 0;
 }
 
-li {
+ul li {
     font-weight: 800;
     font-size: 22px;
     list-style-type: none;
@@ -90,8 +94,41 @@ li {
     display: flex;
     gap: 40px;
     margin: 20px;
+    padding: 20px 0;
 }
 
 .about-text {
     /*Check how to use flexbox more efficiently here */
+}
+
+iframe {
+  padding: 20px;
+}
+
+ol li {
+  list-style-type: none;
+  margin: 5px;
+  padding: none;
+}
+
+#products {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-container {
+  border: 1px solid black;
+  text-align: center;
+  max-width: 400px;
+}
+
+.head {
+  background-color: #C4BDBB;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 5px;
+
 }
