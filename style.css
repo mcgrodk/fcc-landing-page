@@ -10,6 +10,14 @@
   justify-content: space-between;
   background-color: #C4BDBB;
   padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#header-img {
+    width: 20px;
+    height: auto;
 }
 
 .logo-name {
@@ -38,5 +46,52 @@ a:hover {
   color: purple;
 }
 
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
 
+#form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.icon {
+    width: 70px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+li {
+    font-weight: 800;
+    font-size: 22px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about-container {
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+}
+
+.about-text {
+    /*Check how to use flexbox more efficiently here */
+}

@@ -7,30 +7,50 @@
 </head>
 <body>
     <header id="header">
-     <nav id="nav-bar">
-      <div class="nav-left">
-       <img id="header-img" src="https://publicdomainvectors.org/en/free-clipart/Vector-image-of-rock-on-hand-sign-in-black-and-white/31815.html" alt="logo">
-        <div class="logo-name">Heavy Plastic</div>
-     </div>
-     <div class="nav-right">
-        <a class="nav-link" href="">About</a>
-        <a class="nav-link" href="#video">Video</a>
-        <a class="nav-link" href="">Products</a>
-     </div>
-    </nav>
+        <nav id="nav-bar">
+            <div class="nav-left">
+                <img id="header-img" src="./images/logo.png" alt="logo">
+                <!-- Image credit publicdomainvectors.org -->
+                <div class="logo-name">Heavy Plastic</div>
+            </div>
+            <div class="nav-right">
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#video">Video</a>
+                <a class="nav-link" href="">Products</a>
+            </div>
+        </nav>
     </header>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <h1>Jam in Rhythm Games Like It's 2008!</h1>
-      <input type="text" placeholder="Enter your email address" required>
-      <input id="submit" type="submit" value="Get Started"></input>
-    </form>
-    <h2>Durable Instruments</h2>
-      <p>Built to endure your band's wildest jam sessions.</p>
-    <h2>Built for Comfort</h2>
-      <p>Instruments designed for your comfort, with soft guitar straps and smooth drumsticks.</p>
-    <h2>Fast Shipping</h2>
-      <p>Orders shipped within 24 hours because your radical new band can't wait.</p>
-  <iframe 
+    <section id="hero">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h1>Jam to Rhythm Games Like It's 2008!</h1>
+            <input type="text" placeholder="Enter your email address" required>
+            <input id="submit" type="submit" value="Get Started"></input>
+        </form>
+        <ul id="about">
+            <!-- Image credit: pngegg.com - image cropped for individual icons -->
+            <div class="about-container">
+                <img class="icon" src="images/mic-icon.png">
+                <div class="about-text">
+                <li>Durable Instruments</li>
+                    <p>Our buttons, strum bars and drum pads are built to endure your band's heaviest jam sessions.</p>
+                </div>
+            </div>
+            <div class="about-container">
+                <img class="icon" src="images/guitar-icon.png">
+                <div class="about-text">
+                <li>Built for Comfort</li>
+                    <p>Our soft guitar straps and professional-grade drumsticks will keep you comfy through an entire tracklist.</p>
+                </div>
+            </div>
+            <div class="about-container">
+                <img class="icon" src="images/drums-icon.png">
+                <div class="about-text">
+                <li>Quick Shipping</li>
+                    <p>Orders shipped within 48 hours because your band's career can't wait.</p>
+                </div>
+            </div>
+        </ul>
+        <iframe 
           id="video"
           width="560" 
           height="315" 
@@ -39,6 +59,7 @@
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
-  </iframe>
+        </iframe>
+    </section>
 </body>
 </html>  
