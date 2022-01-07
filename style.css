@@ -160,9 +160,11 @@ ol li {
 
 .product-container {
   border: 2px solid black;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 300px;
-  padding-bottom: 20px;
+  padding: 0 2em 2em 2em;
 }
 
 .head {
@@ -172,8 +174,8 @@ ol li {
 }
 
 .product-container ol {
-  max-width: 80%;
-  margin-left: 0;
+  padding: 0;
+  margin: 0;
 }
 
 /* footer styles */
