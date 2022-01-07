@@ -80,9 +80,9 @@ h1 {
     width: 20%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   #form {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -111,11 +111,10 @@ h1 {
     height: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .icon {
-    width: 100%;
-    max-width: 40px;
-    height: auto;
+    max-width: 30vw;
+    max-height: 40vh;
   }
 }
 
@@ -132,6 +131,12 @@ h1 {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 800px) {
+  .about-text li, .about-text p {
+    font-size: 1.25em;
+  }
 }
 
 iframe {
@@ -163,7 +168,8 @@ ol li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 300px;
+  width: 250px;
+  height: 350px;
   padding: 0 2em 2em 2em;
 }
 
